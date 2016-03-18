@@ -1,7 +1,76 @@
 body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 
 }
 
+a{
+  text-decoration: none;
+}
+
+.clear{
+  clear: both;
+}
+
+/*Header*/
 header {
-  
+  color: white;
+  background: #2D3E50;
+  padding-top: 15px;
+  padding-bottom: 25px
 }
+
+header h4 {
+  float: left;
+  text-transform: uppercase;
+  padding: 0px 25px;
+  font-size: 115%;
+}
+
+nav {
+  float: right;1
+
+}
+
+header a{
+  color: white;
+  padding-right: 25px;
+
+}
+
+/*Main*/
+#main{
+  color: white;
+  background: #1F8DD6;
+  padding: 195px 0 170px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#main h1{
+  display: inline-block;
+  font-size: 3em;
+  padding: 45px 180px 50px 180px;
+  border: solid 3px white;
+  border-radius: 5px;
+}
+
+#main p{
+  padding: 35px 0 25px 0;
+  color: #CFE7F6;
+}
+
+#main button{
+  background: white;
+  color:#1F8DD6;
+  border: none;
+  padding: 10px 50px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  border: solid 1px white;
+  border-radius: 5px
+}
+
+
+
